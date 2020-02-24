@@ -12,7 +12,7 @@ const RESOURCES = {
 "/assets\packages\font_awesome_flutter\lib\fonts\fa-solid-900.ttf": "d21f791b837673851dd14f7c132ef32e",
 "/assets\web\assets\fonts\Roboto-Regular.ttf": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
 "/index.html": "8eb9ba9d5065fe2977d9efbbeaea3f9f",
-"/main.dart.js": "746999e21a07d31625aca4b1faf24271"
+"/main.dart.js": "0e9aaf771b959f6b5e00461ba6caebbe"
 };
 
 self.addEventListener('activate', function (event) {
