@@ -13,7 +13,7 @@ const RESOURCES = {
 "/assets/web/assets/fonts/Roboto-Regular.ttf": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
 "/favicon.ico": "51636d3a390451561744c42188ccd628",
 "/index.html": "7bf06ad8ee733460dd4e4249f91b3745",
-"/main.dart.js": "ce0cc00e15c5bbefcce45d87127c2d51"
+"/main.dart.js": "88b3f5eee3bbba3d59eb3e6fe0e17de0"
 };
 
 self.addEventListener('activate', function (event) {
