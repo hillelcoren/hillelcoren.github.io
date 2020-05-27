@@ -17,7 +17,7 @@ const RESOURCES = {
 "favicon.ico": "51636d3a390451561744c42188ccd628",
 "index.html": "7bf06ad8ee733460dd4e4249f91b3745",
 "/": "7bf06ad8ee733460dd4e4249f91b3745",
-"main.dart.js": "90531da4a058ad325d7ae7b76a6859b3"
+"main.dart.js": "2d922f42b8c1c3a629b1b8dabcc5fa45"
 };
 
 // The application shell files that are downloaded before a service worker can
