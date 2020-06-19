@@ -9,15 +9,16 @@ const RESOURCES = {
 "assets/FontManifest.json": "3fca5e5514468a50735f8318fbb836e4",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "assets/fonts/Roboto-Regular.ttf": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
-"assets/LICENSE": "4ed9eaa85a39cb93454c7c680dc67964",
+"assets/NOTICES": "33ad62f8641558062cf705325b128f26",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "2aa350bd2aeab88b601a593f793734c0",
 "assets/web/assets/fonts/Roboto-Regular.ttf": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
 "favicon.ico": "51636d3a390451561744c42188ccd628",
-"index.html": "7bf06ad8ee733460dd4e4249f91b3745",
-"/": "7bf06ad8ee733460dd4e4249f91b3745",
-"main.dart.js": "bb95f3fed5a7a895397835a3077963dd"
+"index.html": "e6465816785464174eb4e0d91ebf25eb",
+"/": "e6465816785464174eb4e0d91ebf25eb",
+"main.dart.js": "bcc598ffd75ace00ccc2a3a6b98f68ac",
+"manifest.json": "cc1177532df4f2a2658a2f76dbfb886a"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -26,7 +27,7 @@ const CORE = [
   "/",
 "main.dart.js",
 "index.html",
-"assets/LICENSE",
+"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 
@@ -155,8 +156,8 @@ async function downloadOffline() {
   }
   for (var resourceKey in Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
-      resources.add(resourceKey);
+      resources.push(resourceKey);
     }
   }
-  return Cache.addAll(resources);
+  return contentCache.addAll(resources);
 }
