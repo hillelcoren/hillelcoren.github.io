@@ -17,7 +17,7 @@ const RESOURCES = {
 "favicon.ico": "51636d3a390451561744c42188ccd628",
 "index.html": "e6465816785464174eb4e0d91ebf25eb",
 "/": "e6465816785464174eb4e0d91ebf25eb",
-"main.dart.js": "3fbe06db3f05f4d1452a3552c5b4a0a5",
+"main.dart.js": "35bfa57aaa05f5c888b593d98ee23a2f",
 "manifest.json": "cc1177532df4f2a2658a2f76dbfb886a"
 };
 
