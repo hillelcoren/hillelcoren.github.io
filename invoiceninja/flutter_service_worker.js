@@ -9,15 +9,15 @@ const RESOURCES = {
 "assets/FontManifest.json": "3fca5e5514468a50735f8318fbb836e4",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "assets/fonts/Roboto-Regular.ttf": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
-"assets/NOTICES": "22e6433eb576cc927c3c0fa05c44223f",
+"assets/NOTICES": "fb72ff44356afc67b2a783a069376c1b",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "2aa350bd2aeab88b601a593f793734c0",
 "assets/web/assets/fonts/Roboto-Regular.ttf": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
 "favicon.ico": "51636d3a390451561744c42188ccd628",
-"index.html": "e6465816785464174eb4e0d91ebf25eb",
-"/": "e6465816785464174eb4e0d91ebf25eb",
-"main.dart.js": "104eab64fc199d87cb81d524f0ecb303",
+"index.html": "e34ee3b3ffde9aaaf773fad0e5460971",
+"/": "e34ee3b3ffde9aaaf773fad0e5460971",
+"main.dart.js": "8444c2b3ce1c9c28ca767cba62265295",
 "manifest.json": "cc1177532df4f2a2658a2f76dbfb886a"
 };
 
