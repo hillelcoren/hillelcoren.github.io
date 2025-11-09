@@ -19,7 +19,7 @@
     ],
     "icons": [
         {
-            "src": "images/logo.png",
+            "src": "images/in_logo.png",
             "sizes": "512x512",
             "type": "image/png"
         }
