@@ -27,12 +27,74 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
   <link rel="icon" type="image/png" href="favicon.png"/>
 
   <title>Invoice Ninja</title>
   <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* Boot loader shown until Flutter paints its first frame. Ported from
+       admin-portal/web/index.html — three-dot spinner from
+       https://projects.lukehaas.me/css-loaders/ */
+    body { margin: 0; background-color: #888888; }
+    #loader {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .loader,
+    .loader:before,
+    .loader:after {
+      border-radius: 50%;
+      width: 2.5em;
+      height: 2.5em;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation: load7 1.8s infinite ease-in-out;
+      animation: load7 1.8s infinite ease-in-out;
+    }
+    .loader {
+      color: #ffffff;
+      font-size: 10px;
+      position: relative;
+      text-indent: -9999em;
+      -webkit-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      transform: translateZ(0);
+      -webkit-animation-delay: -0.40s;
+      animation-delay: -0.40s;
+    }
+    .loader:before,
+    .loader:after {
+      content: '';
+      position: absolute;
+      top: 0;
+    }
+    .loader:before {
+      left: -3.5em;
+      -webkit-animation-delay: -0.80s;
+      animation-delay: -0.80s;
+    }
+    .loader:after {
+      left: 3.5em;
+    }
+    @-webkit-keyframes load7 {
+      0%, 80%, 100% { box-shadow: 0 2.5em 0 -1.3em; }
+      40% { box-shadow: 0 2.5em 0 0; }
+    }
+    @keyframes load7 {
+      0%, 80%, 100% { box-shadow: 0 2.5em 0 -1.3em; }
+      40% { box-shadow: 0 2.5em 0 0; }
+    }
+  </style>
 </head>
 <body>
+  <!-- Boot loader — removed once Flutter renders (see script below). -->
+  <div id="loader"><div class="loader"></div></div>
+
   <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader
@@ -42,5 +104,14 @@
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
   <script src="flutter_bootstrap.js" async></script>
+  <script>
+    // Drop the boot loader once Flutter paints its first frame. The loader
+    // carries no z-index, so Flutter's view already covers it before this
+    // fires — this just cleans the node out of the DOM.
+    window.addEventListener('flutter-first-frame', function () {
+      var el = document.getElementById('loader');
+      if (el && el.parentNode) el.parentNode.removeChild(el);
+    });
+  </script>
 </body>
 </html>
