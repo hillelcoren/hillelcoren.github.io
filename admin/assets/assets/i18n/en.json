@@ -5723,6 +5723,8 @@
   "value_min_width": "Minimum width for values.",
   "value_padding": "Space around each value.",
   "variables": "Variables",
+  "variables_hint": "Tap a variable to insert at the cursor, or type $ in the editor to autocomplete.",
+  "variables_hint_template": "Tap a variable to insert (auto-wrapped in <ninja> if outside one), or type {{ inside a <ninja> block to autocomplete.",
   "vat": "VAT",
   "vat_not_registered": "Seller not VAT registered",
   "vat_number": "VAT Number",
