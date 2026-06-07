@@ -105,13 +105,36 @@
   -->
   <script src="flutter_bootstrap.js" async></script>
   <script>
-    // Drop the boot loader once Flutter paints its first frame. The loader
-    // carries no z-index, so Flutter's view already covers it before this
-    // fires — this just cleans the node out of the DOM.
-    window.addEventListener('flutter-first-frame', function () {
-      var el = document.getElementById('loader');
-      if (el && el.parentNode) el.parentNode.removeChild(el);
-    });
+    (function () {
+      // Drop the boot loader once Flutter paints its first frame. The loader
+      // carries no z-index, so Flutter's view already covers it before this
+      // fires — this just cleans the node out of the DOM.
+      var painted = false;
+      window.addEventListener('flutter-first-frame', function () {
+        painted = true;
+        var el = document.getElementById('loader');
+        if (el && el.parentNode) el.parentNode.removeChild(el);
+      });
+      // Safety-net: boot must never leave the user on an endless spinner. If
+      // the first frame hasn't painted after 30s the boot is wedged — most
+      // likely a transient web-database lock left by a service-worker reload
+      // after a redeploy (see lib/data/db/database_opener_web.dart, which now
+      // time-bounds WasmDatabase.open). Swap the spinner for a one-tap reload,
+      // which clears the stale lock.
+      window.setTimeout(function () {
+        if (painted) return;
+        var el = document.getElementById('loader');
+        if (!el) return;
+        el.innerHTML =
+          '<div style="font-family:system-ui,-apple-system,sans-serif;color:#fff;' +
+          'text-align:center;max-width:320px;padding:24px;line-height:1.5">' +
+          '<div style="margin-bottom:16px">This is taking longer than expected.</div>' +
+          '<button onclick="window.location.reload()" ' +
+          'style="font:inherit;color:#1f2937;background:#fff;border:0;' +
+          'border-radius:6px;padding:8px 22px;cursor:pointer">Reload</button>' +
+          '</div>';
+      }, 30000);
+    })();
   </script>
 </body>
 </html>
