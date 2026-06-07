@@ -118318,11 +118318,11 @@ A.eZ_.prototype={
 $3(a,b,c){return new A.aCg(c,null)},
 $S:2634}
 A.eZ1.prototype={
-$2(a,b){var s
+$2(a,b){var s,r
 if(b.b.gha()!=="/settings")return null
-s=A.y(a,B.h,t.w).w.a.a
-if(s<600)return null
-return s-(A.P(a,!1,t.M).bA.a?64:232)>=600?"/settings/company_details":null},
+s=A.y(a,B.h,t.w).w
+r=A.P(a,!1,t.M).bA.a?64:232
+return s.a.a-r>=880?"/settings/company_details":null},
 $S:620}
 A.eZ0.prototype={
 $2(a,b){return B.chv},
