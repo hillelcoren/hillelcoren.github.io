@@ -1023,5 +1023,7 @@
   "email_scheduled": "Email scheduled",
   "no_email_on_file": "No email address on file for the recipient",
   "client_limit": "Client Limit",
-  "merge_vendor_warning": "Merge :from into the vendor you select below. This permanently deletes :from and moves its expenses, purchase orders and history to the surviving vendor."
+  "merge_vendor_warning": "Merge :from into the vendor you select below. This permanently deletes :from and moves its expenses, purchase orders and history to the surviving vendor.",
+  "referral_signups": "Sign-ups",
+  "referral_program_hosted_only": "The referral program is only available on the hosted Invoice Ninja platform."
 }
