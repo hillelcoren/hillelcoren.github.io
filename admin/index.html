@@ -115,6 +115,15 @@
       40% { box-shadow: 0 2.5em 0 0; }
     }
   </style>
+
+  <!-- pdf.js (PDF preview on the web) loads from our own origin, not unpkg.
+       `printing` reads this before its dynamic import; resolving against the
+       base URI keeps a non-root `--base-href` (the demo's /admin/) working.
+       The vendored files must match printing's pinned pdf.js version —
+       test/lint/vendored_pdfjs_version_test.dart. -->
+  <script>
+    window.dartPdfJsBaseUrl = new URL('pdfjs/', document.baseURI).href;
+  </script>
 </head>
 <body>
   <!-- Boot loader — removed once Flutter renders (see script below). -->
@@ -128,7 +137,7 @@
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
-  <script src="flutter_bootstrap.js?v=91ddae017d4a" async></script>
+  <script src="flutter_bootstrap.js?v=562469f2a998" async></script>
   <script>
     (function () {
       // Drop the boot loader once Flutter paints its first frame. The loader
