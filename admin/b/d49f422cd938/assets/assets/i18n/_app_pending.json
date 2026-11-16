@@ -347,6 +347,8 @@
   "deleted_tag": "Deleted Tag",
   "delta_down": "down",
   "delta_up": "up",
+  "demo_mode": "Demo mode",
+  "demo_mode_banner": "This is shared sample data that is reset regularly, so changes made here are not kept.",
   "demo_mode_disabled": "Disabled in demo mode",
   "depends_on": "Depends on",
   "design_help_body": "Body — the main invoice layout. Most designs only need this.",
