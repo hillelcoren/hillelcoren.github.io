@@ -1426,6 +1426,7 @@
   "visual_design": "Visual design",
   "visual_designer": "Visual designer",
   "vs_amount": "vs :amount",
+  "ownership": "Ownership",
   "vs_prior": "vs prior",
   "warn_outside_business_hours": "Warn outside business hours",
   "warn_outside_business_hours_help": "Warn when it's outside these hours where the contact is, using their timezone.",
