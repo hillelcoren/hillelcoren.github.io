@@ -612,8 +612,8 @@
   "link_other_server": "Bu bağlantı farklı bir Invoice Ninja sunucusu için",
   "linked_payment": "Bağlı ödeme",
   "list": "Liste",
-  "list_density": "Liste yoğunluğu",
-  "list_density_help": "Kompakt görünüm ekrana daha fazla satır sığdırır",
+  "display_density": "Yoğunluk",
+  "display_density_help": "Kompakt görünüm, pano dahil ekrana daha fazlasını sığdırır",
   "lists": "Listeler",
   "live": "Canlı",
   "load_more_failed_with_error": "Daha fazlası yüklenemedi: :error",
@@ -1837,5 +1837,8 @@
   "sign_here_hint": "Buraya imzalayın",
   "docuninja_seats_used": ":total koltuktan :count tanesi kullanılıyor",
   "docuninja_company_setup_help_touch": "Hesabınız mevcut ancak bu şirket henüz kurulmadı. Kurmak için lütfen aşağıdaki düğmeye dokunun.",
-  "sign_in_browser": "Tarayıcıda imzala"
+  "sign_in_browser": "Tarayıcıda imzala",
+  "welcome_density_title": "Ekrana daha fazlası",
+  "welcome_density_body_old_app": "Kompakt görünüm önceki uygulamanın düzenine daha yakındır. Bunu istediğiniz zaman Cihaz Ayarları'ndan değiştirebilirsiniz.",
+  "welcome_density_body": "Kompakt görünüm listeleri, kayıtları ve panoyu sıkılaştırır. Bunu istediğiniz zaman Cihaz Ayarları'ndan değiştirebilirsiniz."
 }

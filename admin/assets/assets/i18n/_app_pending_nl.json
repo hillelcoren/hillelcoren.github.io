@@ -612,8 +612,8 @@
   "link_other_server": "Deze link is voor een andere Invoice Ninja-server",
   "linked_payment": "Gekoppelde betaling",
   "list": "Lijst",
-  "list_density": "Lijstdichtheid",
-  "list_density_help": "Compact toont meer rijen op het scherm",
+  "display_density": "Dichtheid",
+  "display_density_help": "Compact toont meer op het scherm, ook op het dashboard",
   "lists": "Lijsten",
   "live": "Live",
   "load_more_failed_with_error": "Meer laden mislukt: :error",
@@ -1837,5 +1837,8 @@
   "sign_here_hint": "Hier ondertekenen",
   "docuninja_seats_used": ":count van :total plaatsen gebruikt",
   "docuninja_company_setup_help_touch": "Uw account bestaat, maar dit bedrijf is nog niet ingesteld. Tik op de knop hieronder om het in te stellen.",
-  "sign_in_browser": "Ondertekenen in browser"
+  "sign_in_browser": "Ondertekenen in browser",
+  "welcome_density_title": "Meer op het scherm",
+  "welcome_density_body_old_app": "Compact komt dichter bij de indeling van de vorige app. Je kunt het altijd wijzigen in Apparaatinstellingen.",
+  "welcome_density_body": "Compact maakt lijsten, records en het dashboard compacter. Je kunt het altijd wijzigen in Apparaatinstellingen."
 }

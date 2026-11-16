@@ -593,8 +593,8 @@
   "light_variant": "Világos paletta",
   "link_other_server": "Ez a link egy másik Invoice Ninja szerverhez tartozik",
   "linked_payment": "Kapcsolt fizetés",
-  "list_density": "Lista sűrűsége",
-  "list_density_help": "A tömör nézet több sort jelenít meg a képernyőn",
+  "display_density": "Sűrűség",
+  "display_density_help": "A tömör nézet többet mutat a képernyőn, az irányítópulton is",
   "lists": "Listák",
   "live": "Élő",
   "load_more_failed_with_error": "Nem sikerült többet betölteni: :error",
@@ -1794,5 +1794,8 @@
   "sign_here_hint": "Írja alá itt",
   "docuninja_seats_used": ":count / :total hely felhasználva",
   "docuninja_company_setup_help_touch": "A fiókja létezik, de ez a cég még nincs beállítva. Koppintson az alábbi gombra a beállításához.",
-  "sign_in_browser": "Aláírás böngészőben"
+  "sign_in_browser": "Aláírás böngészőben",
+  "welcome_density_title": "Több fér a képernyőre",
+  "welcome_density_body_old_app": "A tömör nézet közelebb áll az előző alkalmazás elrendezéséhez. Bármikor módosíthatja az Eszközbeállításokban.",
+  "welcome_density_body": "A tömör nézet sűríti a listákat, a rekordokat és az irányítópultot. Bármikor módosíthatja az Eszközbeállításokban."
 }

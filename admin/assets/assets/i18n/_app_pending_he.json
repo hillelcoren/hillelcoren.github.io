@@ -585,8 +585,8 @@
   "light_variant": "ערכת צבעים בהירה",
   "link_other_server": "קישור זה מיועד לשרת Invoice Ninja אחר",
   "linked_payment": "תשלום מקושר",
-  "list_density": "צפיפות הרשימה",
-  "list_density_help": "תצוגה צפופה מציגה יותר שורות על המסך",
+  "display_density": "צפיפות",
+  "display_density_help": "תצוגה צפופה מציגה יותר על המסך, כולל בלוח הבקרה",
   "lists": "רשימות",
   "live": "חי",
   "load_more_failed_with_error": "לא ניתן היה לטעון עוד: :error",
@@ -1755,5 +1755,8 @@
   "sign_here_hint": "חתום כאן",
   "docuninja_seats_used": ":count מתוך :total מושבים בשימוש",
   "docuninja_company_setup_help_touch": "החשבון שלך קיים, אך החברה הזו עדיין לא הוגדרה. הקש על הכפתור למטה כדי להגדיר אותה.",
-  "sign_in_browser": "חתימה בדפדפן"
+  "sign_in_browser": "חתימה בדפדפן",
+  "welcome_density_title": "יותר על המסך",
+  "welcome_density_body_old_app": "התצוגה הצפופה קרובה יותר לפריסה של האפליקציה הקודמת. אפשר לשנות זאת בכל עת בהגדרות המכשיר.",
+  "welcome_density_body": "התצוגה הצפופה מהדקת רשימות, רשומות ואת לוח הבקרה. אפשר לשנות זאת בכל עת בהגדרות המכשיר."
 }

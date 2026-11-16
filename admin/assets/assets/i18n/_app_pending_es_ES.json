@@ -586,8 +586,8 @@
   "light_variant": "Paleta clara",
   "link_other_server": "Este enlace es de otro servidor de Invoice Ninja",
   "linked_payment": "Pago vinculado",
-  "list_density": "Densidad de la lista",
-  "list_density_help": "Compacto muestra más filas en pantalla",
+  "display_density": "Densidad",
+  "display_density_help": "Compacto muestra más en pantalla, incluido el panel",
   "lists": "Listas",
   "live": "En directo",
   "load_more_failed_with_error": "No se ha podido cargar más: :error",
@@ -1756,5 +1756,8 @@
   "sign_here_hint": "Firma aquí",
   "docuninja_seats_used": ":count de :total puestos usados",
   "docuninja_company_setup_help_touch": "Tu cuenta existe, pero esta empresa aún no está configurada. Toca el botón de abajo para configurarla.",
-  "sign_in_browser": "Firmar en el navegador"
+  "sign_in_browser": "Firmar en el navegador",
+  "welcome_density_title": "Más en pantalla",
+  "welcome_density_body_old_app": "Compacto se parece más al diseño de la aplicación anterior. Puedes cambiarlo cuando quieras en Opciones de dispositivo.",
+  "welcome_density_body": "Compacto ajusta las listas, las fichas y el panel. Puedes cambiarlo cuando quieras en Opciones de dispositivo."
 }

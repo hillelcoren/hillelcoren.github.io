@@ -612,8 +612,8 @@
   "link_other_server": "Tento odkaz je pro jiný server Invoice Ninja",
   "linked_payment": "Propojená platba",
   "list": "Seznam",
-  "list_density": "Hustota seznamu",
-  "list_density_help": "Kompaktní zobrazí na obrazovce více řádků",
+  "display_density": "Hustota",
+  "display_density_help": "Kompaktní zobrazí více na obrazovce, včetně nástěnky",
   "lists": "Seznamy",
   "live": "Živě",
   "load_more_failed_with_error": "Nepodařilo se načíst další: :error",
@@ -1837,5 +1837,8 @@
   "sign_here_hint": "Podepište zde",
   "docuninja_seats_used": "Využito míst: :count z :total",
   "docuninja_company_setup_help_touch": "Váš účet existuje, ale tato společnost ještě není nastavena. Klepněte prosím na tlačítko níže a nastavte ji.",
-  "sign_in_browser": "Podepsat v prohlížeči"
+  "sign_in_browser": "Podepsat v prohlížeči",
+  "welcome_density_title": "Víc na obrazovce",
+  "welcome_density_body_old_app": "Kompaktní má blíže k rozvržení předchozí aplikace. Kdykoli to můžete změnit v Nastavení zařízení.",
+  "welcome_density_body": "Kompaktní zhustí seznamy, záznamy i nástěnku. Kdykoli to můžete změnit v Nastavení zařízení."
 }

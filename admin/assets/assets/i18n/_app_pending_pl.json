@@ -586,8 +586,8 @@
   "light_variant": "Jasna paleta",
   "link_other_server": "Ten link dotyczy innego serwera Invoice Ninja",
   "linked_payment": "Powiązana płatność",
-  "list_density": "Gęstość listy",
-  "list_density_help": "Tryb kompaktowy mieści więcej wierszy na ekranie",
+  "display_density": "Gęstość",
+  "display_density_help": "Tryb kompaktowy mieści więcej na ekranie, także na pulpicie",
   "lists": "Listy",
   "live": "Na żywo",
   "load_more_failed_with_error": "Nie udało się wczytać więcej: :error",
@@ -1757,5 +1757,8 @@
   "sign_here_hint": "Podpisz tutaj",
   "docuninja_seats_used": "Wykorzystano miejsca: :count z :total",
   "docuninja_company_setup_help_touch": "Twoje konto istnieje, ale ta firma nie jest jeszcze skonfigurowana. Dotknij przycisku poniżej, aby ją skonfigurować.",
-  "sign_in_browser": "Podpisz w przeglądarce"
+  "sign_in_browser": "Podpisz w przeglądarce",
+  "welcome_density_title": "Więcej na ekranie",
+  "welcome_density_body_old_app": "Tryb kompaktowy jest bliższy układowi poprzedniej aplikacji. Możesz go zmienić w dowolnym momencie w Ustawieniach urządzenia.",
+  "welcome_density_body": "Tryb kompaktowy zagęszcza listy, rekordy i pulpit. Możesz go zmienić w dowolnym momencie w Ustawieniach urządzenia."
 }

@@ -612,8 +612,8 @@
   "link_other_server": "Questo link è per un altro server Invoice Ninja",
   "linked_payment": "Pagamento collegato",
   "list": "Elenco",
-  "list_density": "Densità elenco",
-  "list_density_help": "La modalità compatta mostra più righe sullo schermo",
+  "display_density": "Densità",
+  "display_density_help": "La modalità compatta mostra più contenuti sullo schermo, inclusa la dashboard",
   "lists": "Elenchi",
   "live": "In tempo reale",
   "load_more_failed_with_error": "Impossibile caricare altri elementi: :error",
@@ -1837,5 +1837,8 @@
   "sign_here_hint": "Firma qui",
   "docuninja_seats_used": ":count di :total posti utilizzati",
   "docuninja_company_setup_help_touch": "Il tuo account esiste, ma questa azienda non è ancora configurata. Tocca il pulsante qui sotto per configurarla.",
-  "sign_in_browser": "Firma nel browser"
+  "sign_in_browser": "Firma nel browser",
+  "welcome_density_title": "Più contenuti sullo schermo",
+  "welcome_density_body_old_app": "La modalità compatta è più vicina al layout dell'app precedente. Puoi cambiarla in qualsiasi momento in Impostazioni dispositivo.",
+  "welcome_density_body": "La modalità compatta rende più fitti elenchi, schede e dashboard. Puoi cambiarla in qualsiasi momento in Impostazioni dispositivo."
 }

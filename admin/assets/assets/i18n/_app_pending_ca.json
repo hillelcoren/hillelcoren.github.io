@@ -586,8 +586,8 @@
   "light_variant": "Paleta clara",
   "link_other_server": "Aquest enllaç és per a un altre servidor d'Invoice Ninja",
   "linked_payment": "Pagament vinculat",
-  "list_density": "Densitat de la llista",
-  "list_density_help": "Compacte mostra més files a la pantalla",
+  "display_density": "Densitat",
+  "display_density_help": "Compacte mostra més contingut a la pantalla, també al tauler",
   "lists": "Llistes",
   "live": "En directe",
   "load_more_failed_with_error": "No s'han pogut carregar més: :error",
@@ -1756,5 +1756,8 @@
   "sign_here_hint": "Signeu aquí",
   "docuninja_seats_used": ":count de :total llicències utilitzades",
   "docuninja_company_setup_help_touch": "El vostre compte existeix, però aquesta empresa encara no està configurada. Toqueu el botó de sota per configurar-la.",
-  "sign_in_browser": "Signa al navegador"
+  "sign_in_browser": "Signa al navegador",
+  "welcome_density_title": "Més contingut a la pantalla",
+  "welcome_density_body_old_app": "Compacte s'assembla més a la disposició de l'aplicació anterior. Pots canviar-ho quan vulguis a la configuració del dispositiu.",
+  "welcome_density_body": "Compacte ajusta les llistes, les fitxes i el tauler. Pots canviar-ho quan vulguis a la configuració del dispositiu."
 }

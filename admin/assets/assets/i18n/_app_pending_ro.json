@@ -610,8 +610,8 @@
   "link_other_server": "Acest link este pentru un alt server Invoice Ninja",
   "linked_payment": "Plată asociată",
   "list": "Listă",
-  "list_density": "Densitatea listei",
-  "list_density_help": "Compact afișează mai multe rânduri pe ecran",
+  "display_density": "Densitate",
+  "display_density_help": "Compact afișează mai mult pe ecran, inclusiv în tabloul de bord",
   "lists": "Liste",
   "live": "Live",
   "load_more_failed_with_error": "Nu s-au putut încărca mai multe: :error",
@@ -1827,5 +1827,8 @@
   "sign_here_hint": "Semnați aici",
   "docuninja_seats_used": ":count din :total locuri utilizate",
   "docuninja_company_setup_help_touch": "Contul dvs. există, dar această companie nu este încă configurată. Atingeți butonul de mai jos pentru a o configura.",
-  "sign_in_browser": "Semnați în browser"
+  "sign_in_browser": "Semnați în browser",
+  "welcome_density_title": "Mai mult pe ecran",
+  "welcome_density_body_old_app": "Compact este mai apropiat de aspectul aplicației anterioare. Îl poți schimba oricând din Setări dispozitiv.",
+  "welcome_density_body": "Compact strânge listele, înregistrările și tabloul de bord. Îl poți schimba oricând din Setări dispozitiv."
 }

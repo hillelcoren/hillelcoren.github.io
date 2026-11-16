@@ -585,8 +585,8 @@
   "light_variant": "Svetla paleta",
   "link_other_server": "Ovaj link je za drugi Invoice Ninja server",
   "linked_payment": "Povezana uplata",
-  "list_density": "Gustina liste",
-  "list_density_help": "Kompaktni prikaz smešta više redova na ekran",
+  "display_density": "Gustina",
+  "display_density_help": "Kompaktni prikaz smešta više na ekran, uključujući kontrolnu tablu",
   "lists": "Liste",
   "live": "Uživo",
   "load_more_failed_with_error": "Učitavanje dodatnih stavki nije uspelo: :error",
@@ -1755,5 +1755,8 @@
   "sign_here_hint": "Potpišite ovde",
   "docuninja_seats_used": "Iskorišćeno mesta: :count od :total",
   "docuninja_company_setup_help_touch": "Vaš nalog postoji, ali ova kompanija još nije podešena. Dodirnite dugme ispod da biste je podesili.",
-  "sign_in_browser": "Potpiši u pregledaču"
+  "sign_in_browser": "Potpiši u pregledaču",
+  "welcome_density_title": "Više na ekranu",
+  "welcome_density_body_old_app": "Kompaktni prikaz je bliži izgledu prethodne aplikacije. Možete ga promeniti bilo kada u Postavkama uređaja.",
+  "welcome_density_body": "Kompaktni prikaz zbija liste, zapise i kontrolnu tablu. Možete ga promeniti bilo kada u Postavkama uređaja."
 }

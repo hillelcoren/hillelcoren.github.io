@@ -612,8 +612,8 @@
   "link_other_server": "Ta povezava je za drug strežnik Invoice Ninja",
   "linked_payment": "Povezano plačilo",
   "list": "Seznam",
-  "list_density": "Gostota seznama",
-  "list_density_help": "Strnjeno prikaže več vrstic na zaslonu",
+  "display_density": "Gostota",
+  "display_density_help": "Strnjeno prikaže več na zaslonu, tudi na nadzorni plošči",
   "lists": "Seznami",
   "live": "V živo",
   "load_more_failed_with_error": "Več ni bilo mogoče naložiti: :error",
@@ -1837,5 +1837,8 @@
   "sign_here_hint": "Podpišite tukaj",
   "docuninja_seats_used": "Uporabljena mesta: :count od :total",
   "docuninja_company_setup_help_touch": "Vaš račun obstaja, vendar to podjetje še ni nastavljeno. Tapnite spodnji gumb, da ga nastavite.",
-  "sign_in_browser": "Podpiši v brskalniku"
+  "sign_in_browser": "Podpiši v brskalniku",
+  "welcome_density_title": "Več na zaslonu",
+  "welcome_density_body_old_app": "Strnjeno je bližje postavitvi prejšnje aplikacije. Kadar koli ga lahko spremenite v nastavitvah naprave.",
+  "welcome_density_body": "Strnjeno zgosti sezname, zapise in nadzorno ploščo. Kadar koli ga lahko spremenite v nastavitvah naprave."
 }

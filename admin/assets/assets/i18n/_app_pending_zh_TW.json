@@ -586,8 +586,8 @@
   "light_variant": "淺色調色盤",
   "link_other_server": "此連結屬於另一台 Invoice Ninja 伺服器",
   "linked_payment": "連結的付款",
-  "list_density": "清單密度",
-  "list_density_help": "精簡模式可在畫面上顯示更多列",
+  "display_density": "顯示密度",
+  "display_density_help": "精簡模式可在畫面上顯示更多內容，包括儀表板",
   "lists": "清單",
   "live": "即時",
   "load_more_failed_with_error": "無法載入更多：:error",
@@ -1756,5 +1756,8 @@
   "sign_here_hint": "在此簽名",
   "docuninja_seats_used": "已使用 :count / :total 個席位",
   "docuninja_company_setup_help_touch": "您的帳戶已存在，但此公司尚未設定。請點一下下方按鈕進行設定。",
-  "sign_in_browser": "在瀏覽器中簽署"
+  "sign_in_browser": "在瀏覽器中簽署",
+  "welcome_density_title": "畫面上顯示更多",
+  "welcome_density_body_old_app": "精簡模式更接近舊版應用程式的版面。你可以隨時在裝置設定中變更。",
+  "welcome_density_body": "精簡模式讓清單、記錄和儀表板更緊湊。你可以隨時在裝置設定中變更。"
 }

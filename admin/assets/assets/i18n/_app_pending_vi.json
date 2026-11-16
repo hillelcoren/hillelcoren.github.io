@@ -578,8 +578,8 @@
   "last_refreshed": "Làm mới lần cuối",
   "light_variant": "Bảng màu sáng",
   "linked_payment": "Thanh toán liên kết",
-  "list_density": "Mật độ danh sách",
-  "list_density_help": "Gọn giúp hiển thị nhiều hàng hơn trên màn hình",
+  "display_density": "Mật độ",
+  "display_density_help": "Gọn giúp hiển thị nhiều hơn trên màn hình, kể cả bảng điều khiển",
   "lists": "Danh sách",
   "live": "Trực tiếp",
   "load_more_failed_with_error": "Không thể tải thêm: :error",
@@ -1723,5 +1723,8 @@
   "copy_client_portal_link": "Sao chép liên kết cổng thông tin khách hàng",
   "vendor_portal_link": "Liên kết cổng thông tin nhà cung cấp",
   "share_vendor_portal_link": "Chia sẻ liên kết cổng thông tin nhà cung cấp",
-  "copy_vendor_portal_link": "Sao chép liên kết cổng thông tin nhà cung cấp"
+  "copy_vendor_portal_link": "Sao chép liên kết cổng thông tin nhà cung cấp",
+  "welcome_density_title": "Hiển thị nhiều hơn",
+  "welcome_density_body_old_app": "Gọn gần với bố cục của ứng dụng trước hơn. Bạn có thể thay đổi bất cứ lúc nào trong Cài đặt thiết bị.",
+  "welcome_density_body": "Gọn thu gọn danh sách, bản ghi và bảng điều khiển. Bạn có thể thay đổi bất cứ lúc nào trong Cài đặt thiết bị."
 }

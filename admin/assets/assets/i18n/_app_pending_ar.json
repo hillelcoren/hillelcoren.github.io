@@ -585,8 +585,8 @@
   "light_variant": "لوحة الألوان الفاتحة",
   "link_other_server": "هذا الرابط مخصص لخادم Invoice Ninja مختلف",
   "linked_payment": "الدفعة المرتبطة",
-  "list_density": "كثافة القائمة",
-  "list_density_help": "يعرض الوضع المضغوط صفوفًا أكثر على الشاشة",
+  "display_density": "الكثافة",
+  "display_density_help": "يعرض الوضع المضغوط محتوى أكثر على الشاشة، بما في ذلك لوحة المعلومات",
   "lists": "القوائم",
   "live": "مباشر",
   "load_more_failed_with_error": "تعذر تحميل المزيد: :error",
@@ -1755,5 +1755,8 @@
   "sign_here_hint": "وقّع هنا",
   "docuninja_seats_used": "تم استخدام :count من :total مقاعد",
   "docuninja_company_setup_help_touch": "حسابك موجود ولكن هذه الشركة لم يتم إعدادها بعد. يرجى الضغط على الزر أدناه لإعدادها.",
-  "sign_in_browser": "التوقيع في المتصفح"
+  "sign_in_browser": "التوقيع في المتصفح",
+  "welcome_density_title": "اعرض المزيد على الشاشة",
+  "welcome_density_body_old_app": "الوضع المضغوط أقرب إلى تخطيط التطبيق السابق. يمكنك تغييره في أي وقت من إعدادات الجهاز.",
+  "welcome_density_body": "الوضع المضغوط يجعل القوائم والسجلات ولوحة المعلومات أكثر إحكامًا. يمكنك تغييره في أي وقت من إعدادات الجهاز."
 }

@@ -612,8 +612,8 @@
   "link_other_server": "此链接属于另一个 Invoice Ninja 服务器",
   "linked_payment": "关联的付款",
   "list": "列表",
-  "list_density": "列表密度",
-  "list_density_help": "紧凑模式可在屏幕上显示更多行",
+  "display_density": "显示密度",
+  "display_density_help": "紧凑模式可在屏幕上显示更多内容，包括仪表板",
   "lists": "列表",
   "live": "实时",
   "load_more_failed_with_error": "无法加载更多：:error",
@@ -1837,5 +1837,8 @@
   "sign_here_hint": "在此签名",
   "docuninja_seats_used": "已使用 :count / :total 个席位",
   "docuninja_company_setup_help_touch": "您的账户已存在，但此公司尚未设置。请点按下方按钮进行设置。",
-  "sign_in_browser": "在浏览器中签署"
+  "sign_in_browser": "在浏览器中签署",
+  "welcome_density_title": "屏幕上显示更多",
+  "welcome_density_body_old_app": "紧凑模式更接近旧版应用的布局。你可以随时在设备设置中更改。",
+  "welcome_density_body": "紧凑模式让列表、记录和仪表板更紧凑。你可以随时在设备设置中更改。"
 }

@@ -586,8 +586,8 @@
   "light_variant": "Paleta clara",
   "link_other_server": "Este link é para outro servidor Invoice Ninja",
   "linked_payment": "Pagamento associado",
-  "list_density": "Densidade da lista",
-  "list_density_help": "O modo compacto mostra mais linhas no ecrã",
+  "display_density": "Densidade",
+  "display_density_help": "O modo compacto mostra mais no ecrã, incluindo no painel",
   "lists": "Listas",
   "live": "Em direto",
   "load_more_failed_with_error": "Não foi possível carregar mais: :error",
@@ -1756,5 +1756,8 @@
   "sign_here_hint": "Assine aqui",
   "docuninja_seats_used": ":count de :total licenças em utilização",
   "docuninja_company_setup_help_touch": "A sua conta existe, mas esta empresa ainda não está configurada. Toque no botão abaixo para a configurar.",
-  "sign_in_browser": "Assinar no navegador"
+  "sign_in_browser": "Assinar no navegador",
+  "welcome_density_title": "Mais no ecrã",
+  "welcome_density_body_old_app": "O modo compacto aproxima-se do esquema da aplicação anterior. Pode alterá-lo a qualquer momento nas Configurações do Dispositivo.",
+  "welcome_density_body": "O modo compacto torna listas, registos e o painel mais compactos. Pode alterá-lo a qualquer momento nas Configurações do Dispositivo."
 }

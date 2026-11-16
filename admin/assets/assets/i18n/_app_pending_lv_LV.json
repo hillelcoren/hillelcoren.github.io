@@ -612,8 +612,8 @@
   "link_other_server": "Šī saite ir citam Invoice Ninja serverim",
   "linked_payment": "Saistītais maksājums",
   "list": "Saraksts",
-  "list_density": "Saraksta blīvums",
-  "list_density_help": "Kompakts ekrānā ietilpina vairāk rindu",
+  "display_density": "Blīvums",
+  "display_density_help": "Kompakts ekrānā ietilpina vairāk, arī informācijas panelī",
   "lists": "Saraksti",
   "live": "Tiešraidē",
   "load_more_failed_with_error": "Neizdevās ielādēt vairāk: :error",
@@ -1838,5 +1838,8 @@
   "sign_here_hint": "Parakstieties šeit",
   "docuninja_seats_used": "Izmantotas vietas: :count no :total",
   "docuninja_company_setup_help_touch": "Jūsu konts pastāv, bet šis uzņēmums vēl nav iestatīts. Lūdzu, pieskarieties zemāk esošajai pogai, lai to iestatītu.",
-  "sign_in_browser": "Parakstīt pārlūkprogrammā"
+  "sign_in_browser": "Parakstīt pārlūkprogrammā",
+  "welcome_density_title": "Vairāk ekrānā",
+  "welcome_density_body_old_app": "Kompakts ir tuvāks iepriekšējās lietotnes izkārtojumam. To var mainīt jebkurā laikā ierīces iestatījumos.",
+  "welcome_density_body": "Kompakts sablīvē sarakstus, ierakstus un informācijas paneli. To var mainīt jebkurā laikā ierīces iestatījumos."
 }

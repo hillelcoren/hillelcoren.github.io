@@ -612,8 +612,8 @@
   "link_other_server": "Denne lenken er for en annen Invoice Ninja-server",
   "linked_payment": "Tilknyttet betaling",
   "list": "Liste",
-  "list_density": "Listetetthet",
-  "list_density_help": "Kompakt får plass til flere rader på skjermen",
+  "display_density": "Tetthet",
+  "display_density_help": "Kompakt får plass til mer på skjermen, også på dashbordet",
   "lists": "Lister",
   "live": "Direkte",
   "load_more_failed_with_error": "Kunne ikke laste inn flere: :error",
@@ -1837,5 +1837,8 @@
   "sign_here_hint": "Signer her",
   "docuninja_seats_used": ":count av :total plasser brukt",
   "docuninja_company_setup_help_touch": "Kontoen din finnes, men dette firmaet er ikke satt opp ennå. Trykk på knappen nedenfor for å sette det opp.",
-  "sign_in_browser": "Signer i nettleser"
+  "sign_in_browser": "Signer i nettleser",
+  "welcome_density_title": "Få plass til mer på skjermen",
+  "welcome_density_body_old_app": "Kompakt ligger nærmere oppsettet i den forrige appen. Du kan endre det når som helst i enhetsinnstillingene.",
+  "welcome_density_body": "Kompakt strammer inn lister, poster og dashbordet. Du kan endre det når som helst i enhetsinnstillingene."
 }

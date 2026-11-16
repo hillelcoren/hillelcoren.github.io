@@ -586,8 +586,8 @@
   "light_variant": "Hele palett",
   "link_other_server": "See link on mõeldud teisele Invoice Ninja serverile",
   "linked_payment": "Seotud makse",
-  "list_density": "Loendi tihedus",
-  "list_density_help": "Kompaktne mahutab ekraanile rohkem ridu",
+  "display_density": "Tihedus",
+  "display_density_help": "Kompaktne mahutab ekraanile rohkem, ka juhtpaneelil",
   "lists": "Loendid",
   "live": "Reaalajas",
   "load_more_failed_with_error": "Rohkem ei õnnestunud laadida: :error",
@@ -1756,5 +1756,8 @@
   "sign_here_hint": "Allkirjastage siin",
   "docuninja_seats_used": "Kasutatud kohti: :count / :total",
   "docuninja_company_setup_help_touch": "Teie konto on olemas, kuid see ettevõte pole veel seadistatud. Selle seadistamiseks puudutage allolevat nuppu.",
-  "sign_in_browser": "Allkirjasta brauseris"
+  "sign_in_browser": "Allkirjasta brauseris",
+  "welcome_density_title": "Rohkem ekraanile",
+  "welcome_density_body_old_app": "Kompaktne on lähemal eelmise rakenduse paigutusele. Saad seda igal ajal muuta seadme sätetes.",
+  "welcome_density_body": "Kompaktne tihendab loendeid, kirjeid ja juhtpaneeli. Saad seda igal ajal muuta seadme sätetes."
 }

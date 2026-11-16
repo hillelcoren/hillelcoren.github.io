@@ -586,8 +586,8 @@
   "light_variant": "Vaalea paletti",
   "link_other_server": "Tämä linkki on eri Invoice Ninja -palvelimelle",
   "linked_payment": "Linkitetty maksu",
-  "list_density": "Luettelon tiiviys",
-  "list_density_help": "Tiivis näyttää enemmän rivejä näytöllä",
+  "display_density": "Tiiviys",
+  "display_density_help": "Tiivis näyttää näytöllä enemmän, myös koontinäytöllä",
   "lists": "Luettelot",
   "live": "Reaaliaikainen",
   "load_more_failed_with_error": "Lisää ei voitu ladata: :error",
@@ -1757,5 +1757,8 @@
   "sign_here_hint": "Allekirjoita tähän",
   "docuninja_seats_used": ":count / :total paikkaa käytössä",
   "docuninja_company_setup_help_touch": "Tilisi on olemassa, mutta tätä yritystä ei ole vielä otettu käyttöön. Ota se käyttöön napauttamalla alla olevaa painiketta.",
-  "sign_in_browser": "Allekirjoita selaimessa"
+  "sign_in_browser": "Allekirjoita selaimessa",
+  "welcome_density_title": "Enemmän näytölle",
+  "welcome_density_body_old_app": "Tiivis on lähempänä edellisen sovelluksen asettelua. Voit muuttaa sitä milloin tahansa laiteasetuksista.",
+  "welcome_density_body": "Tiivis tiivistää luettelot, tietueet ja koontinäytön. Voit muuttaa sitä milloin tahansa laiteasetuksista."
 }

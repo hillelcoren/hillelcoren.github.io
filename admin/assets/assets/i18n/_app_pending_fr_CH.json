@@ -586,8 +586,8 @@
   "light_variant": "Palette claire",
   "link_other_server": "Ce lien concerne un autre serveur Invoice Ninja",
   "linked_payment": "Paiement lié",
-  "list_density": "Densité de la liste",
-  "list_density_help": "Le mode compact affiche plus de lignes à l'écran",
+  "display_density": "Densité",
+  "display_density_help": "Le mode compact affiche plus de contenu à l'écran, y compris sur le tableau de bord",
   "lists": "Listes",
   "live": "Production",
   "load_more_failed_with_error": "Impossible d'en charger plus : :error",
@@ -1757,5 +1757,8 @@
   "sign_here_hint": "Signez ici",
   "docuninja_seats_used": ":count sièges utilisés sur :total",
   "docuninja_company_setup_help_touch": "Votre compte existe, mais cette entreprise n'est pas encore configurée. Touchez le bouton ci-dessous pour la configurer.",
-  "sign_in_browser": "Signer dans le navigateur"
+  "sign_in_browser": "Signer dans le navigateur",
+  "welcome_density_title": "Plus de contenu à l'écran",
+  "welcome_density_body_old_app": "Le mode compact se rapproche de la disposition de l'ancienne application. Vous pouvez le modifier à tout moment dans les paramètres de l'appareil.",
+  "welcome_density_body": "Le mode compact resserre les listes, les fiches et le tableau de bord. Vous pouvez le modifier à tout moment dans les paramètres de l'appareil."
 }

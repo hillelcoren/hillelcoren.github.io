@@ -578,8 +578,8 @@
   "last_refreshed": "Dernière actualisation",
   "light_variant": "Palette claire",
   "linked_payment": "Paiement lié",
-  "list_density": "Densité de la liste",
-  "list_density_help": "Le mode compact affiche plus de rangées à l'écran",
+  "display_density": "Densité",
+  "display_density_help": "Le mode compact affiche plus de contenu à l'écran, y compris sur le tableau de bord",
   "lists": "Listes",
   "live": "En direct",
   "load_more_failed_with_error": "Impossible d'en charger davantage : :error",
@@ -1725,5 +1725,8 @@
   "copy_client_portal_link": "Copier le lien du portail client",
   "vendor_portal_link": "Lien du portail du fournisseur",
   "share_vendor_portal_link": "Partager le lien du portail du fournisseur",
-  "copy_vendor_portal_link": "Copier le lien du portail du fournisseur"
+  "copy_vendor_portal_link": "Copier le lien du portail du fournisseur",
+  "welcome_density_title": "Plus de contenu à l'écran",
+  "welcome_density_body_old_app": "Le mode compact se rapproche de la disposition de l'ancienne application. Vous pouvez le modifier en tout temps dans les paramètres de l'appareil.",
+  "welcome_density_body": "Le mode compact resserre les listes, les fiches et le tableau de bord. Vous pouvez le modifier en tout temps dans les paramètres de l'appareil."
 }

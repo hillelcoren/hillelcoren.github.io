@@ -592,8 +592,8 @@
   "light_variant": "Šviesi paletė",
   "link_other_server": "Ši nuoroda skirta kitam Invoice Ninja serveriui",
   "linked_payment": "Susietas mokėjimas",
-  "list_density": "Sąrašo tankumas",
-  "list_density_help": "Kompaktiškas rodinys sutalpina daugiau eilučių ekrane",
+  "display_density": "Tankumas",
+  "display_density_help": "Kompaktiškas rodinys sutalpina daugiau ekrane, įskaitant skydelį",
   "lists": "Sąrašai",
   "live": "Tiesiogiai",
   "load_more_failed_with_error": "Nepavyko įkelti daugiau: :error",
@@ -1794,5 +1794,8 @@
   "sign_here_hint": "Pasirašykite čia",
   "docuninja_seats_used": "Naudojama vietų: :count iš :total",
   "docuninja_company_setup_help_touch": "Jūsų paskyra egzistuoja, tačiau ši įmonė dar nenustatyta. Bakstelėkite žemiau esantį mygtuką, kad ją nustatytumėte.",
-  "sign_in_browser": "Pasirašyti naršyklėje"
+  "sign_in_browser": "Pasirašyti naršyklėje",
+  "welcome_density_title": "Daugiau ekrane",
+  "welcome_density_body_old_app": "Kompaktiškas rodinys artimesnis ankstesnės programėlės išdėstymui. Bet kada galite jį pakeisti įrenginio nustatymuose.",
+  "welcome_density_body": "Kompaktiškas rodinys sutankina sąrašus, įrašus ir skydelį. Bet kada galite jį pakeisti įrenginio nustatymuose."
 }

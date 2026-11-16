@@ -612,8 +612,8 @@
   "link_other_server": "このリンクは別の Invoice Ninja サーバー用です",
   "linked_payment": "紐付けられた入金",
   "list": "リスト",
-  "list_density": "リストの密度",
-  "list_density_help": "コンパクトにすると画面に表示できる行が増えます",
+  "display_density": "表示密度",
+  "display_density_help": "コンパクトにすると、ダッシュボードを含め画面に表示できる量が増えます",
   "lists": "リスト",
   "live": "ライブ",
   "load_more_failed_with_error": "さらに読み込めませんでした: :error",
@@ -1837,5 +1837,8 @@
   "sign_here_hint": "ここに署名",
   "docuninja_seats_used": ":total 席中 :count 席を使用中",
   "docuninja_company_setup_help_touch": "アカウントは存在しますが、この会社はまだ設定されていません。下のボタンをタップして設定してください。",
-  "sign_in_browser": "ブラウザで署名"
+  "sign_in_browser": "ブラウザで署名",
+  "welcome_density_title": "画面にもっと表示",
+  "welcome_density_body_old_app": "コンパクトは以前のアプリのレイアウトに近い表示です。デバイス設定でいつでも変更できます。",
+  "welcome_density_body": "コンパクトはリスト、レコード、ダッシュボードを詰めて表示します。デバイス設定でいつでも変更できます。"
 }

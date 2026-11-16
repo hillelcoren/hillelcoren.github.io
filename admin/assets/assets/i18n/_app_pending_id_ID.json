@@ -587,8 +587,8 @@
   "light_variant": "Palet terang",
   "link_other_server": "Tautan ini untuk server Invoice Ninja yang berbeda",
   "linked_payment": "Pembayaran tertaut",
-  "list_density": "Kepadatan daftar",
-  "list_density_help": "Ringkas memuat lebih banyak baris di layar",
+  "display_density": "Kepadatan",
+  "display_density_help": "Ringkas memuat lebih banyak di layar, termasuk dasbor",
   "lists": "Daftar",
   "live": "Langsung",
   "load_more_failed_with_error": "Tidak dapat memuat lebih banyak: :error",
@@ -1757,5 +1757,8 @@
   "sign_here_hint": "Tanda tangan di sini",
   "docuninja_seats_used": ":count dari :total kursi terpakai",
   "docuninja_company_setup_help_touch": "Akun Anda sudah ada, tetapi perusahaan ini belum disiapkan. Ketuk tombol di bawah untuk menyiapkannya.",
-  "sign_in_browser": "Tanda tangani di browser"
+  "sign_in_browser": "Tanda tangani di browser",
+  "welcome_density_title": "Muat lebih banyak di layar",
+  "welcome_density_body_old_app": "Ringkas lebih mirip tata letak aplikasi sebelumnya. Anda dapat mengubahnya kapan saja di Pengaturan Perangkat.",
+  "welcome_density_body": "Ringkas merapatkan daftar, catatan, dan dasbor. Anda dapat mengubahnya kapan saja di Pengaturan Perangkat."
 }
