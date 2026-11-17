@@ -1,6 +1,6 @@
 /* split_main_js */
 (function () {
-  var parts = ["main.dart.js.parts/138248ad2abb.0.js", "main.dart.js.parts/138248ad2abb.1.js"];
+  var parts = ["main.dart.js.parts/d9b6b048c72f.0.js", "main.dart.js.parts/d9b6b048c72f.1.js"];
   var base = (document.currentScript && document.currentScript.src) || document.baseURI;
   function part(name) {
     return fetch(new URL(name, base)).then(function (response) {
