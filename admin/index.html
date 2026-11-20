@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="/admin/b/22f34940693c/">
+  <base href="/admin/b/b5cf2ece2555/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -51,7 +51,9 @@
 
   <!-- Installed-window title bar / Android status bar. manifest.json can only
        carry one theme_color, so these override it per system theme with the
-       design system's own bg / deep ink (lib/app/design_tokens.dart). -->
+       design system's own bg / deep ink (lib/app/design_tokens.dart). The
+       running app then sets them to the user's own theme
+       (applyBrowserChromeColor, docs/web-platform-differences.md). -->
   <meta name="theme-color" content="#F6F4EF" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#15140F" media="(prefers-color-scheme: dark)">
 
@@ -63,7 +65,15 @@
     /* Boot loader shown until Flutter paints its first frame. Ported from
        admin-portal/web/index.html — three-dot spinner from
        https://projects.lukehaas.me/css-loaders/ */
-    body { margin: 0; background-color: #888888; }
+    /* The app's default background and ink (lightSand / darkEspresso in
+       lib/app/design_tokens.dart), so the boot matches the first frame and a
+       browser that tints its toolbar from the page (Safari) gets the app's
+       colour, not grey. Once running, the app sets both itself to whatever
+       theme the user picked (applyBrowserChromeColor). */
+    html, body { margin: 0; background-color: #F6F4EF; color: #1A1814; }
+    @media (prefers-color-scheme: dark) {
+      html, body { background-color: #15140F; color: #F6F4EF; }
+    }
     #loader {
       position: absolute;
       inset: 0;
@@ -83,7 +93,7 @@
       animation: load7 1.8s infinite ease-in-out;
     }
     .loader {
-      color: #ffffff;
+      color: #857F73;
       font-size: 10px;
       position: relative;
       text-indent: -9999em;
@@ -143,7 +153,7 @@
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
-  <script src="flutter_bootstrap.js?v=bda471cb64be" async></script>
+  <script src="flutter_bootstrap.js?v=032b1e342b32" async></script>
   <!-- glue:start first-frame -->
   <script>
     (function () {
@@ -151,29 +161,66 @@
       // carries no z-index, so Flutter's view already covers it before this
       // fires — this just cleans the node out of the DOM.
       var painted = false;
+      // flutter_bootstrap.js reads this key: 'canvaskit' forces the
+      // JavaScript build (docs/web-platform-differences.md).
+      var RENDERER_KEY = 'invoiceninja.web.renderer.v1';
+      var pinnedByWatchdog = false;
+      // The fallback holds for this deploy only, the same tag
+      // flutter_bootstrap.js (inBuildTag) checks before honouring it.
+      function watchdogTag() {
+        var s = document.querySelector('script[src*="flutter_bootstrap.js"]');
+        return 'watchdog ' + (s ? s.src : '') + ' ' + document.baseURI;
+      }
       window.addEventListener('flutter-first-frame', function () {
         painted = true;
         // Read by Deploy to Web's boot smoke (docs/web-deploy.md).
         window.__flutterFirstFrame = true;
+        // A slow boot that painted after all was not a WebAssembly crash.
+        if (pinnedByWatchdog) {
+          try {
+            if (localStorage.getItem(RENDERER_KEY) === watchdogTag()) {
+              localStorage.removeItem(RENDERER_KEY);
+            }
+          } catch (e) {}
+        }
         var el = document.getElementById('loader');
         if (el && el.parentNode) el.parentNode.removeChild(el);
       });
+      // Whether this boot loaded the WebAssembly build (dart2wasm's
+      // main.dart.wasm / main.dart.mjs) rather than main.dart.js.
+      function bootIsWasm() {
+        try {
+          return performance.getEntriesByType('resource').some(function (r) {
+            return /\/main\.dart\.(wasm|mjs)(\?|$)/.test(r.name);
+          });
+        } catch (e) {
+          return false;
+        }
+      }
       // Safety-net: boot must never leave the user on an endless spinner. If
       // the first frame hasn't painted after 30s the boot is wedged — most
       // likely a transient web-database lock left by a service-worker reload
       // after a redeploy (see lib/data/db/database_opener_web.dart, which now
       // time-bounds WasmDatabase.open). Swap the spinner for a one-tap reload,
-      // which clears the stale lock.
+      // which clears the stale lock. On a WebAssembly boot it may instead be
+      // a browser that passed the loader's checks and crashed, so the reload
+      // (or any later load) uses the JavaScript build; ?renderer=auto undoes it.
       window.setTimeout(function () {
         if (painted) return;
+        if (bootIsWasm()) {
+          try {
+            localStorage.setItem(RENDERER_KEY, watchdogTag());
+            pinnedByWatchdog = true;
+          } catch (e) {}
+        }
         var el = document.getElementById('loader');
         if (!el) return;
         el.innerHTML =
-          '<div style="font-family:system-ui,-apple-system,sans-serif;color:#fff;' +
+          '<div style="font-family:system-ui,-apple-system,sans-serif;color:inherit;' +
           'text-align:center;max-width:320px;padding:24px;line-height:1.5">' +
           '<div style="margin-bottom:16px">This is taking longer than expected.</div>' +
           '<button onclick="window.location.reload()" ' +
-          'style="font:inherit;color:#1f2937;background:#fff;border:0;' +
+          'style="font:inherit;color:#1f2937;background:#fff;border:1px solid #d6d1c6;' +
           'border-radius:6px;padding:8px 22px;cursor:pointer">Reload</button>' +
           '</div>';
       }, 30000);
